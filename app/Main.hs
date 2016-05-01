@@ -28,7 +28,7 @@ proxyConfigParser = ProxyConfig
         <*> strOption
         ( long "log-format" <> short 'f'
           <> metavar "FORMAT" <> value "%time %remote %method %host %path %query\n%headers\n"
-          <> help "log format" )
+          <> help "log format like '%time %remote %method %host %path %query %headers'" )
         <*> switch
         ( long "daemon" <> short 'd'
           <> help "run as daemon" )
