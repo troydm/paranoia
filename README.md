@@ -11,6 +11,7 @@ Usage
 --------
 
     git clone https://github.com/troydm/paranoia.git
+    cd paranoia
     stack build
     stack exec paranoia --help
 
