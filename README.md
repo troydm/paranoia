@@ -11,8 +11,8 @@ Usage
 --------
 
     git clone https://github.com/troydm/paranoia.git
-    stalk build
-    stalk exec paranoia --help
+    stack build
+    stack exec paranoia --help
 
 License
 -------
